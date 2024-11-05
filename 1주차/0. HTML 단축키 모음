@@ -1,0 +1,38 @@
+! : html 구조 자동완성
+
+alt + B : html 파일 브라우저에서 실행 (확장팩: open in browser)
+
+link::css : css 스타일시트 연결
+* >> 태그 반복
+	ex) (li > button) * 5
+	결과:<li> <button>  </button> <li>
+		<li> <button>  </button> <li>
+		<li> <button>  </button> <li>
+		<li> <button>  </button> <li>
+		<li> <button>  </button> <li>
+
+(태그) > (태그) : 태그 안에 자식 태그 생성
+	ex) li > button
+	결과: <li> <button>  </button> <li>
+
+태그.클래스명 : 클래스명이 부여된 태그를 생성
+	ex) section.player
+	결과: <section class = "player"> </section>
+
+(태그) + (태그) : 각각 태그를 생성해줌
+	ex) header + section.player + section.info
+	결과:<header> </header>
+		<section class = "player"> </section>
+		<section class = "info"> </section>
+
+ctrl + shift + L >> 드래그된 단어와 동일한 단어를 모두 수정할 수 있음
+
+ctrl + D >> 드래그된 단어와 동일한 단어를 한 개씩 선택할 수 있음
+
+alt + 방향키 >> 선택한 코드의 열을 위아래로 이동
+
+ctrl + alt + 방향키 >> 행을 다중선택하여 여러 행 동시에 수정 가능
+
+ctrl + / >> 한 줄 주석처리
+
+alt + shift + A >> 여러 줄 주석처리
