@@ -1,0 +1,26 @@
+텍스트 입력 창
+	<input type="text">
+
+비밀번호 입력 창
+	<input type="password">
+
+라디오 버튼
+	<input type="radio">
+
+체크 박스
+	<input type="checkbox">
+
+파일
+	<input type="file">
+
+버튼
+	<input type="submit">
+	<input type="button">
+	<input type="reset">
+	<button>
+
+선택 박스
+	<select> <option>
+
+다중 입력 창
+	<textarea>
